@@ -1,0 +1,100 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_5",
+        "AssignRangeOfDate&Sequence_2",
+        "StartDate&Sequence_2",
+        "EndDate&Sequence_2",
+        "MandiUrl&Sequence_2",
+        "SuperAppUrl&Sequence_2",
+        "Directory&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Mandi_CropPrice_API.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "SuperAppUrl",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Config.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ConfigSetting&Sequence_1",
+        "ConfigData&Sequence_1",
+        "ConfigRows&Sequence_1",
+        "ConfigCoumns&Sequence_1",
+        "key&Sequence_2",
+        "value&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "SuperAppUrl",
+        "Directory"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Wholesale.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "WholesaleDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Retail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "MandiWebsiteUrl",
+        "RetailDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence_Move_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "YesterdayDate&Sequence_1",
+        "Year&Sequence_1",
+        "Month&Sequence_1",
+        "Dates&Sequence_1",
+        "FileName&Sequence_1",
+        "FileInfo&Sequence_1",
+        "RenameFileName&Sequence_1",
+        "FileExistsBoolean&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Directory",
+        "InDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
